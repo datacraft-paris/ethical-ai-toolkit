@@ -1,0 +1,66 @@
+site_name: 'ekit'
+site_description: 'ekit library'
+site_author: 'Ekimetrics'
+site_url: "https://ekimetrics.com/"
+edit_uri: ""
+theme:
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  name: 'material'
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+repo_name: 'ekit'
+repo_url: 'https://bitbucket.org/ekimetrics/'
+
+extra_css:
+  - ./stylesheets/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+nav:
+  - Home: 
+    - index.md
+    - home/installation.md
+    - Quickstart: home/quickstart.md
+    - FAQ: home/faq.md
+    - home/releases.md
+    -  Ethics checklist: home/ethics.md
+  - Tutorials:
+    - Quickstart: tutorials/quickstart.md
+    - tutorials/notebook-test.ipynb
+  - Library:
+    - library/utils.md
+  - Best practices:
+    - About: best-practices/about.md
+    - Conventions: best-practices/conventions.md
+
+plugins:
+  - search
+  - mknotebooks:
+      execute: false
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: true
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+      watch:
+        - "ekit"

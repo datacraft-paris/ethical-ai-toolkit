@@ -1,0 +1,5 @@
+cd ..
+
+black ekit
+
+pause

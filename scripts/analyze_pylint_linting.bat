@@ -1,0 +1,5 @@
+cd ..
+
+pylint ekit
+
+pause

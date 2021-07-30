@@ -1,0 +1,53 @@
+.md-content__inner.md-typeset {
+    font-size:16px ;
+}
+
+.output_area{
+    font-size:14px;
+    background-color:"#e7f4ff";
+}
+
+.md-grid{
+    max-width: 70rem;
+}
+ 
+.md-sidebar--secondary{
+    margin-left: 1rem;
+    margin-right: 1rem;
+ 
+}
+
+.md-header{
+    background-color:#16293c;
+}
+
+
+.md-footer{
+    background-color:#16293c;
+}
+
+
+.md-tabs{
+    background-color:#16293c;
+}
+
+.admonition > p{
+    font-size:14px;
+}
+.admonition {
+    font-size:14px !important;
+}
+
+
+.output_text > pre > code{
+    background:none;
+}
+
+
+:root {
+
+
+  /* Primary color shades */
+  --md-primary-fg-color:               #16293c;
+
+  }

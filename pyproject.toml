@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ethicalai"
+version = "0.0.0"
+description = "Open source Ethical AI toolkit"
+authors = ["Theo Alves Da Costa <theo.alves.da.costa@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0"
+pandas = "^1.2.4"
+jupyter = "^1.0.0"
+numpy = "^1.20.2"
+tqdm = "^4.60.0"
+matplotlib = "^3.4.1"
+scikit-learn = "^0.24.2"
+aif360 = {extras = ["all"], version = "^0.4.0"}
+plotly = "^4.14.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

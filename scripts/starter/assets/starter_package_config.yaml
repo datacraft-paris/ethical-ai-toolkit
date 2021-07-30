@@ -1,0 +1,4 @@
+project_name: "{{cookiecutter.project_name}}"
+library_name: "{{cookiecutter.library_name}}"
+author_name: "{{cookiecutter.author_name}}"
+description: "{{cookiecutter.description}}"
