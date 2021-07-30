@@ -1,12 +1,16 @@
 # Welcome to the project Ethical AI Toolkit
+
 ![](docs/assets/banner.png)
 
 - **Project name**: Ethical AI Toolkit
-- **Library name**: ekit
-- **Authors**: Ekimetrics
+- **Library name**: ethicalai
+- **Authors**: Datcraft, Ekimetrics, Danone
 - **Description**: Open source Ethical AI toolkit
 
+This project aims at leveraging and improving existing AI fairness initiatives. More to come... Meanwhile, below is a
+little reminder about main fairness metrics.
 
+![](docs/assets/fairness_tree.png)
 
 ## Project Structure
 ```
