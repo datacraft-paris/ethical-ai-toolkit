@@ -29,11 +29,10 @@ from aif360.algorithms.inprocessing import PrejudiceRemover
 
 from pandas.api.types import is_string_dtype
 
-def get_categorical_cols(df,remove = None):
+
+def get_categorical_cols(df, remove=None):
     cols = [x for x in df.columns if is_string_dtype(df[x])]
     if remove is not None:
-        if not isinstance(remove,list): remove = [remove]
+        if not isinstance(remove, list): remove = [remove]
         cols = [x for x in cols if x not in remove]
     return cols
-
-
