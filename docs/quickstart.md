@@ -25,18 +25,20 @@ cols_to_study = ["age","gender"]
 
 
 # Model run
-# model_run = ModelRun(
-#     model = RandomForestClassifier(...),
-#     data = df,
-#     target = target,
-#     split = ...
-# )
+model_run = ModelRun(
+    model = RandomForestClassifier(...),
+    data = df,
+    target = target,
+    split = ...
+)
 
-# model = RandomForestClassifier(...)
-# X_train,X_test,.... = train_test_split(df.drop(columns = target),df[target])
-# model.fit(X_train,y_train)
-# y_pred_proba = model.predict_proba(X_test)
-# y_pred = model.predict(X_test)
+model = RandomForestClassifier(...)
+X_train,X_test,.... = train_test_split(df.drop(columns = target),df[target])
+model.fit(X_train,y_train)
+y_pred_proba = model.predict_proba(X_test)
+y_pred = model.predict(X_test)
+
+
 
 
 
@@ -44,14 +46,14 @@ evaluator.evaluate_bias(model_run)
 
 # Mitigator
 mitigator = BiasMitigator()
-study1 = mitigator.pre_mitigate(model_run)
-study2 = mitigator.pre_mitigate2(model_run)
+study1 = mitigator.pre_mitigate(experiment)
+study2 = mitigator.pre_mitigate2(experiment)
 
 # Comparator
 comparator = BiasComparator()
 comparator.compare([study1,study2,...])
 
-# AutoML
+# AutoMitigate
 # ???
 
 
