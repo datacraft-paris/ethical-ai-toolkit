@@ -9,13 +9,9 @@ This project aims at centralizing relevant materials & resources about fairness 
 It centralizes efforts made by a group of Data Scientists to uncover the topic:
 
 - [Trustworthy AI guidelines](#trustworthy)
-
 - [Benchathon](#benchathon)
-  
 - [Fairness workflow, revisited](#workflow)
-  
 - [Workshop slide deck](data/ia_ethique.pdf) that sums up the initiative until Nov 14th 2021 [in French]
-
 - [Future & areas of development](#dev)
 
 <a name="trustworthy"></a>
