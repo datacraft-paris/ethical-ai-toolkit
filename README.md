@@ -57,4 +57,4 @@ The current state of investigation mainly focuses on tabular classification. Oth
 - Complex data structures like text or images
 - Automatic bias detection
 
-If you want to contribute, please feel free to raise an [issue](https://github.com/datacraft-paris/ethical-ai-toolkit/issues) or contact [Xavier](xavier.lioneton@datacraft.paris>)
+If you want to contribute, please feel free to raise an [issue](https://github.com/datacraft-paris/ethical-ai-toolkit/issues) or contact [Xavier](mailto:xavier.lioneton@datacraft.paris>)
