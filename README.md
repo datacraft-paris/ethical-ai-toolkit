@@ -9,6 +9,7 @@ This project aims at centralizing relevant materials & resources about fairness 
 It centralizes efforts made by a group of Data Scientists to uncover the topic:
 
 - [Trustworthy AI guidelines](#trustworthy)
+- [Fairness intro](https://theolvs.notion.site/Bias-fairness-ethical-AI-responsible-Data-Science-689a7ba9bf1b4808a87734ac0b347fb7)
 - [Benchathon](#benchathon)
 - [Fairness workflow, revisited](#workflow)
 - [Workshop slide deck](data/ia_ethique.pdf) that sums up the initiative until Nov 14th 2021 [in French]
